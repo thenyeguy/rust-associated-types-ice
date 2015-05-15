@@ -1,4 +1,2 @@
 mod types;
-pub struct Container {
-    pub value: Option<Box<types::TestTrait<Input=f32, Output=f32>>>
-}
+pub type Object = Option<Box<types::TestTrait<Input=f32, Output=f32>>>;
