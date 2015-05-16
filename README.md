@@ -1,5 +1,11 @@
 I was working on a complicated generic container, when I started running into an
-internal compiler error in rust.
+internal compiler error in rust. This repo contains the bug information and
+a minimal example that reproduces the bug.
+
+Opened as issue
+[rust-lang/rust#25467](https://github.com/rust-lang/rust/issues/25467).
+
+## Reproduction
 
 I reduced it to the following relevant bits:
  * A TestTrait with two associated types in one module.
